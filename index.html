@@ -1,59 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Story Protocol</title>
-    <style>
-        /* Basic styles for centering and spacing */
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px 10%;
-        }
-
-        .overlay {
-            background-color: rgba(255, 255, 255, 0.7);
-            padding: 20px;
-        }
-    </style>
 </head>
-
 <body>
-    <!-- Navbar -->
-    <nav>
-        <a href="#about">About</a> |
-        <a href="#values">Values</a> |
-        <a href="#partners">Partners</a> |
-        <a href="#people">People</a> |
-        <a href="#media">Media</a> |
-        <a href="#careers">Careers</a>
-    </nav>
-
-    <!-- Main Hero Section -->
-    <div class="overlay">
+    <header>
+        <nav>
+            <div class="logo">STORY</div>
+            <ul>
+                <li>About</li>
+                <li>Values</li>
+                <li>Partners</li>
+                <li>People</li>
+                <li>Media</li>
+                <li>Careers</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
         <h1>Introducing Story Protocol</h1>
-        <button>Download PDF</button>
-        <button>Our Vision</button>
-    </div>
-
-    <!-- Article/Blog Section -->
-    <section style="padding: 50px 10%; text-align: left;">
-        <h2>Abstract</h2>
-        <p>The internet is the most powerful creative tool in history. Creative works are connected,
-            remixed, and distributed at zero marginal cost.</p>
-        <p>Despite the abundance of content creation on the internet, creators struggle to grow and
-            capture the value of their intellectual property. The traditional IP model is both opaque
-            and slow. Provenance and attribution need to happen at the speed and scale of the web.</p>
-        <p>By creating an IP framework that embraces the internet's fundamental principles of
-            openness and collaboration, Story Protocol aims to become the native IP infrastructure of
-            the internet. The protocol will provide a neutral source of provenance to track the lifecycle
-            of an IP as it evolves across mediums and platforms in addition to modules that power
-            frictionless licensing and remixing of IP.</p>
-        <p>Just as Git revolutionized the development of open-source software by underpinning the
-            networked evolution of code, Story Protocol aims to transform the development of creative IP.</p>
-    </section>
+        <div class="buttons">
+            <button class="btn">Download PDF</button>
+            <button class="btn secondary">Our Vision</button>
+        </div>
+        <section class="abstract">
+            <h2>Abstract</h2>
+            <p>
+                <!-- Your content here -->
+            </p>
+        </section>
+    </main>
 </body>
-
 </html>
